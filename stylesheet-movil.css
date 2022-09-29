@@ -1,4 +1,8 @@
-
+* {
+   margin:0;
+   padding:0;
+   background: border-box;
+}
 .header {
   background-color: black;
   width: 480px;
