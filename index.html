@@ -1,80 +1,90 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Spotify</title>
-    <link rel="stylesheet" href="./main.css">
-</head>
-<body>
-        <header class="header">
-            <img class="logo" src="./imgenes/logo.png" alt="Logo Spotify">
-            <nav class="menu">
-                <ul>
-                    <li><a href="">Premium</a></li>
-                    <li><a href="">Ayuda</a></li>
-                    <li><a href="">Descargar</a></li>
-                    <li><a href="">Registrarse</a></li>
-                    <li><a href="">Iniciar sesión</a></li>
-                </ul>
-            </nav>
-            <img class="header-icon" src="./imgenes/menu-icon.png" alt="menu-icon">
-        </header>
-   
+    <link rel="stylesheet" href="./main.css"/>
+    <link rel="stylesheet" href="./stylesheet-tablet.css"/>
+    <link rel="stylesheet" href="./stylesheet-web.css"/>
+    <!-- Referenciar las hojas de estilo al tamaño de pantalla  -->
+  </head>
+
+  <body>
+    <header class="header">
+      <img class="logo" src="./imgenes/logo.png" alt="Logo Spotify" />
+      <nav class="menu">
+        <ul class="list-menu">
+          <li><a href="">Premium</a></li>
+          <li><a href="">Ayuda</a></li>
+          <li><a href="">Descargar</a></li>
+          <li><span class="bar">|</span></li> 
+          <li><a href="">Registrarse</a></li>
+          <li><a href="">Iniciar sesión</a></li>
+        </ul>
+      </nav>
+      <img class="header-icon" src="./imgenes/menu-icon.png" alt="menu-icon" />
+    </header>
 
     <main class="main">
+      <section class="section1">
+        <h1>Prueba Premium gratis 3 meses</h1>
+        <h4>
+          Escucha millones de canciones sin aununcios, a la carta y sin
+          conexión.
+        </h4>
+        <a href="">VER PLANES</a>
+        <!--Aqui podemos poner un imput de tipo link  -->
+        <span
+          >Rigen términos y conciciones. Los tres meses gratis no están
+          disponibles para usuarios que ya hayan probado premium.</span
+        >
+      </section>
 
-        <section class="section1">
-            <h1>Prueba Premium gratis 3 meses</h1>
-            <h4>Escucha millones de canciones sin aununcios, a la carta y sin conexión.</h4>
-            <a href="">VER PLANES</a> <!--Aqui podemos poner un imput de tipo link  -->
-            <span>Rigen términos y conciciones. Los tres meses gratis no están disponibles para usuarios que ya hayan probado premium.</span>
-        </section>
+      <section class="section2">
+        <h1>¿Por qué pasate a Premium?</h1>
 
-        <section class="section2">
-            <h1>¿Por qué pasate a Premium?</h1>
+        <article class="articulo1">
+          <img src="./imgenes/benefit-1.png" alt="imagen descarga música" />
+          <h5>Descarga música.</h5>
+          <p>Llévala siempre contigo.</p>
+        </article>
 
-            <article class="articulo1">
-                <img src="./imgenes/benefit-1.png" alt="imagen descarga música">
-                <h5>Descarga música.</h5>
-                <p>Llévala siempre contigo.</p>
-            </article>
+        <article class="articulo2">
+          <img src="./imgenes/benefit-2.png" alt="imagen movil" />
+          <h5>Sin anuncios.</h5>
+          <p>Disfruta de música sin interrupciones.</p>
+        </article>
 
-            <article class="articulo2">
-                <img src="./imgenes/benefit-2.png" alt="imagen movil">
-                <h5>Sin anuncios.</h5>
-                <p>Disfruta de música sin interrupciones.</p>
-            </article>
+        <article class="articulo3">
+          <img src="./imgenes/benefit-3.png" alt="imagen clave muscial" />
+          <h5>Escucha lo que quieras.</h5>
+          <p>Incluso en el móvil.</p>
+        </article>
 
-            <article class="articulo3">
-                <img src="./imgenes/benefit-3.png" alt="imagen clave muscial">
-                <h5>Escucha lo que quieras.</h5>
-                <p>Incluso en el móvil.</p>
-            </article>
-
-            <article class="articulo4">
-                <img src="./imgenes/benefit-4.png" alt="imagen movil reproductor">
-                <h5>Salta todas las canciones que quieras.</h5>
-                <p>Simplemente dale a siguiente.</p>
-            </article>
-        </section>
+        <article class="articulo4">
+          <img src="./imgenes/benefit-4.png" alt="imagen movil reproductor" />
+          <h5>Salta todas las canciones que quieras.</h5>
+          <p>Simplemente dale a siguiente.</p>
+        </article>
+      </section>
     </main>
     <footer class="footer">
-        <nav class="menu">
-            <ul>
-                <li><a href="">Legal</a></li>
-                <li><a href="">Cookies</a></li>
-                <li><a href="">Información sobre los anuncios</a></li>
-            </ul>
-        </nav>
-        <section class="bandera">
-            <div>
-            España
-            <img src="./imgenes/es.svg" alt="bandera-españa">
-            </div>
-            <div>©2022 Spotify AB</div>
-        </section>
+      <nav class="menu">
+        <ul>
+          <li><a href="">Legal</a></li>
+          <li><a href="">Cookies</a></li>
+          <li><a href="">Información sobre los anuncios</a></li>
+        </ul>
+      </nav>
+      <section class="bandera">
+        <div>
+          España
+          <img src="./imgenes/es.svg" alt="bandera-españa" />
+        </div>
+        <div>©2022 Spotify AB</div>
+      </section>
     </footer>
-</body>
+  </body>
 </html>

@@ -1,0 +1,19 @@
+@media all and (min-width: 778px){
+   .header-icon {
+       display: none;
+   }
+   .menu {
+       display: block;
+   }
+   .list-menu {
+       display: flex;
+       gap: 10px;
+       margin-right: 10px;
+       list-style-type: none;
+   }
+   .list-menu a {
+       color: white;
+       text-decoration: none;
+   }
+  
+} 
